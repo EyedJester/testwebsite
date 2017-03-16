@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <title>Nope.jpg</title>
-<link href='//fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
 <style>
 img.mj {
   margin: auto;
@@ -25,13 +24,22 @@ body {
 
 </style>
 <body>
+<img src="https://media.giphy.com/media/12jzJ3iOw9rA9a/giphy.gif" alt="dancing_mickey_mouse.gif" onload="playMusic()" class="mj">
+<script>
+  function playMusic() {   //UGHH
+    var audio = new Audio({
+      urls: ['runninginthe90s.mp3', 'runninginthe90s.ogg'],
+      loop: true});
+    audio.play;
+  }
+</script>
 <audio autoplay loop>
   <source src="runninginthe90s.ogg" type="audio/ogg">
   <source src="runninginthe90s.mp3" type="audio/mpeg">
 Your browser probably isn't Chrome if you're seeing this.<br>
 What's wrong with you?
 </audio>
-<img src="https://media.giphy.com/media/12jzJ3iOw9rA9a/giphy.gif" alt="dancing_mickey_mouse.gif" class="mj">
+
 <h1>"Get me a glass of water."</h1>
 <p>- Michael Jackson | June 25, 2009</p>
 </body>
