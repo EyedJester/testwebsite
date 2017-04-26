@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<title> please </title>
+
+<style>
+
+img.seat {
+  margin: auto;
+  display: block;
+}
+
+body {
+  background-image: url("http://i.imgur.com/llg24bo.gif")
+  background-size: cover;
+}
+
+</style>
+
+<body>
+
+<img src="http://i.imgur.com/KNOF121.gif" alt="seating_arrangement" class="seat">
+
+</body>
+
+</html>
