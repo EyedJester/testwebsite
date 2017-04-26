@@ -5,12 +5,12 @@
 <style>
 
 img.seat {
-  margin: auto;
+  margin: 30%;
   display: block;
 }
 
 body {
-  background-image: url("http://i.imgur.com/llg24bo.gif")
+  background-image:url("http://i.imgur.com/llg24bo.gif");
   background-size: cover;
 }
 
